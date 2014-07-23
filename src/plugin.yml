@@ -1,0 +1,15 @@
+name: Minecraft Slay Range
+main: com.beastmc.MCSR.main.MCSR
+version: 0.2
+authors: [_WolfyKid, mbacookie42]
+description: MCSR Plugin
+
+commands:
+   MCSR:
+      description: Main Command
+      
+   Rank:
+      description: Ranks Command
+      
+   Trail:
+      description: Donator's trail
