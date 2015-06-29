@@ -7,5 +7,6 @@ public class Commands {
 		new MCSRCommand(plugin);
 		new TrailCommand(plugin);
 		new RankCommand(plugin);
+		new BanCommand(plugin);
 	}
 }

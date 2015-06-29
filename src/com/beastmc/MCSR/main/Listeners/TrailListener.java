@@ -19,7 +19,7 @@ public class TrailListener implements Listener {
 	@EventHandler
 	public void move(PlayerMoveEvent e) {
 		if(trailOn.contains(e.getPlayer().getName())) {
-			ParticleEffects.sendToLocation(ParticleEffects.GREEN_SPARKLE, e.getFrom(), 1.0F, 1.0F, 1.0F, 3, 20);
+			ParticleEffects.sendToLocation(ParticleEffects.GREEN_SPARKLE, e.getFrom(), 0.5F, 0.5F, 0.5F, 3, 15);
 		}
 	}
 }

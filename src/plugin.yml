@@ -13,3 +13,12 @@ commands:
       
    Trail:
       description: Donator's trail
+   
+   tempban:
+      description: Temporarily ban a player
+   
+   mute:
+      description: Mute a player.
+   
+   pardon:
+      description: Pardon a player of their punishments
